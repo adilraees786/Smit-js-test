@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Blogging Dashboard</h1>
+        </header>
+
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Create Post</a></li>
+                <li><a href="#">Manage Posts</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#" id="Logout-btn">Logout</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <h2>Welcome to your Dashboard</h2>
+            <p>This is where you can manage your blog posts, view stats, and more.</p>
+
+            <div class="dashboard-cards">
+                <div class="card">
+                    <h3>Total Posts</h3>
+                    <p id="totalPosts">0</p>
+                </div>
+                <div class="card">
+                    <h3>Views Today</h3>
+                    <p id="viewsToday">0</p>
+                </div>
+                <div class="card">
+                    <h3>Comments</h3>
+                    <p id="totalComments">0</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
